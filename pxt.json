@@ -1,0 +1,29 @@
+{
+    "name": "wuaa",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5",
+        "i2cLCD1602": "github:makecode-extensions/i2clcd1602#v1.5.0",
+        "lcd1602": "github:xuefengedu/pxt-lcd1602_CN#0ecac824f43d544bf553459adb2696b5f0d3d8d2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "pyprj"
+}
